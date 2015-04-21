@@ -85,9 +85,6 @@
 				4F6E8B771AE6AC9D0054E424 /* AppDelegate.m */,
 				4F6E8B791AE6AC9D0054E424 /* ViewController.h */,
 				4F6E8B7A1AE6AC9D0054E424 /* ViewController.m */,
-				4F6E8B7C1AE6AC9D0054E424 /* Main.storyboard */,
-				4F6E8B7F1AE6AC9D0054E424 /* Images.xcassets */,
-				4F6E8B811AE6AC9D0054E424 /* LaunchScreen.xib */,
 				4F6E8B721AE6AC9D0054E424 /* Supporting Files */,
 			);
 			path = UIWebViewLoop;
@@ -96,6 +93,9 @@
 		4F6E8B721AE6AC9D0054E424 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F6E8B7F1AE6AC9D0054E424 /* Images.xcassets */,
+				4F6E8B7C1AE6AC9D0054E424 /* Main.storyboard */,
+				4F6E8B811AE6AC9D0054E424 /* LaunchScreen.xib */,
 				4F6E8B731AE6AC9D0054E424 /* Info.plist */,
 				4F6E8B741AE6AC9D0054E424 /* main.m */,
 			);
