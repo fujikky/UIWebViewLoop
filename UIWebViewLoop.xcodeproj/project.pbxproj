@@ -14,6 +14,7 @@
 		4F6E8B801AE6AC9D0054E424 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6E8B7F1AE6AC9D0054E424 /* Images.xcassets */; };
 		4F6E8B831AE6AC9D0054E424 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F6E8B811AE6AC9D0054E424 /* LaunchScreen.xib */; };
 		4F6E8B8F1AE6AC9D0054E424 /* UIWebViewLoopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6E8B8E1AE6AC9D0054E424 /* UIWebViewLoopTests.m */; };
+		A125E7811AE727A400BB9FF2 /* MyURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A125E7801AE727A400BB9FF2 /* MyURLProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4F6E8B881AE6AC9D0054E424 /* UIWebViewLoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWebViewLoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F6E8B8D1AE6AC9D0054E424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F6E8B8E1AE6AC9D0054E424 /* UIWebViewLoopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewLoopTests.m; sourceTree = "<group>"; };
+		A125E77F1AE727A400BB9FF2 /* MyURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyURLProtocol.h; sourceTree = "<group>"; };
+		A125E7801AE727A400BB9FF2 /* MyURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyURLProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				4F6E8B771AE6AC9D0054E424 /* AppDelegate.m */,
 				4F6E8B791AE6AC9D0054E424 /* ViewController.h */,
 				4F6E8B7A1AE6AC9D0054E424 /* ViewController.m */,
+				A125E77F1AE727A400BB9FF2 /* MyURLProtocol.h */,
+				A125E7801AE727A400BB9FF2 /* MyURLProtocol.m */,
 				4F6E8B721AE6AC9D0054E424 /* Supporting Files */,
 			);
 			path = UIWebViewLoop;
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F6E8B7B1AE6AC9D0054E424 /* ViewController.m in Sources */,
+				A125E7811AE727A400BB9FF2 /* MyURLProtocol.m in Sources */,
 				4F6E8B781AE6AC9D0054E424 /* AppDelegate.m in Sources */,
 				4F6E8B751AE6AC9D0054E424 /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				4F6E8B941AE6AC9D0054E424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F6E8B951AE6AC9D0054E424 /* Build configuration list for PBXNativeTarget "UIWebViewLoopTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				4F6E8B971AE6AC9D0054E424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

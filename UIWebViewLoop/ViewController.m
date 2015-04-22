@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyURLProtocol.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
@@ -26,26 +27,16 @@
 }
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
-    //このif文でreturnNOすれば回避できそうだけどiFrameも消えるのでNG
-    if (![request.URL.absoluteString isEqualToString:request.mainDocumentURL.absoluteString]) {
-        //http://www.city.shibuya.tokyo.jp/index.html?_=0.31560527184046805 系のURLリクエストはjsで生成している模様
-        NSLog(@"%@", request.URL);
-        NSLog(@"%f", request.timeoutInterval); //int maxっぽい数値
-//        return NO;
-    }
     return YES;
 }
 
 - (void)webViewDidStartLoad:(UIWebView *)webView {
-
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
-
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-
 }
 
 @end
